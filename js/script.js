@@ -197,7 +197,7 @@ function startTimer(time){
     function timer(){
         timeCount.textContent = time; // Definir o tempo restante
         time--; // Decrementar o tempo
-        if(time < 9){ // Se o tempo for menor que 9
+        if(time < 4){ // Se o tempo for menor que 9
             let addZero = timeCount.textContent;
             timeCount.textContent = "0" + addZero;
         }

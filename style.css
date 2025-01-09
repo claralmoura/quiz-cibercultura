@@ -36,16 +36,25 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
+.home-title {
+    position: relative; /* Garante que o título seja posicionado relativamente ao contêiner */
+    top: -20px; /* Move o título para cima */
+    font-size: 22px; /* Ajuste de tamanho se necessário */
+    text-align: center;
+    color: white;
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
 /* Centralizar o contêiner de botões */
 .button_container {
     position: absolute;
-    top: 50%;
+    top: 55%; /* Ajuste para compensar a mudança no título */
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column; /* Organiza os botões verticalmente */
-    align-items: center; /* Centraliza os botões horizontalmente */
-    gap: 15px; /* Espaço entre os botões */
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 /* Aplicar estilos aos botões */
