@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Quiz Incrível</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link CDN FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Contêiner para centralizar os botões -->
+    <div class="button_container">
+        <div class="start_btn"><button>Iniciar Quiz</button></div>
+        <div class="article_btn"><button>Ler o Artigo</button></div>
+    </div>
+
+    <!-- Caixa de Informações -->
+    <div class="info_box">
+        <div class="info-title"><span>Algumas Regras deste Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Você terá apenas <span>30 segundos</span> por questão.</div>
+            <div class="info">2. Uma vez que você selecione sua resposta, ela não poderá ser desfeita.</div>
+            <div class="info">3. Você não poderá selecionar nenhuma opção quando o tempo acabar.</div>
+            <div class="info">4. Você não pode sair do Quiz enquanto estiver jogando.</div>
+            <div class="info">5. Você ganhará pontos com base nas respostas corretas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair do Quiz</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Caixa do Quiz -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Fake News e os Caminhos
+                para Fora da Bolha</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo Restante</div>
+                <div class="timer_sec">30</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Aqui eu inseri a pergunta via JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Aqui eu inseri as opções via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Rodapé da Caixa do Quiz -->
+        <footer>
+            <div class="total_que">
+                <!-- Aqui eu inseri o número total de questões via JavaScript -->
+            </div>
+            <button class="next_btn">Próxima Questão</button>
+        </footer>
+    </div>
+
+    <!-- Caixa de Resultados -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você completou o Quiz!</div>
+        <div class="score_text">
+            <!-- Aqui eu inseri o resultado da pontuação via JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Reiniciar Quiz</button>
+            <button class="quit">Sair do Quiz</button>
+        </div>
+    </div>
+
+    <!-- Dentro deste arquivo JavaScript eu inseri as Perguntas e Opções -->
+    <script src="js/questions.js"></script>
+
+    <!-- Dentro deste arquivo JavaScript eu codifiquei todo o funcionamento do Quiz -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
