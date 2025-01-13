@@ -68,7 +68,7 @@ let questions = [
   },
   {
     numb: 7,
-    question: "De acordo com o texto, qual é um dos maiores problemas enfrentados nas redes sociais quando se trata de liberdade de expressão?",
+    question: "Qual é um dos maiores problemas enfrentados nas redes sociais quando se trata de liberdade de expressão?",
     answer: "A disseminação de informações imprecisas ou falsas, alimentada por uma torcida ideológica e facilidade de compartilhamento.",
     options: [
       "A censura prévia das informações divulgadas, controlada pelas mídias tradicionais.",
@@ -90,7 +90,7 @@ let questions = [
   },
   {
     numb: 9,
-    question: "De acordo com o texto, qual é o principal impacto da arquitetura das redes sociais no comportamento dos usuários?",
+    question: "Qual é o principal impacto da arquitetura das redes sociais no comportamento dos usuários?",
     answer: "O reforço da interação dos usuários dentro de bolhas informativas, fazendo com que se exponham apenas a opiniões que confirmem suas crenças.",
     options: [
       "A criação de uma rede de debates democráticos e imparciais, onde todos os pontos de vista são igualmente representados.",
@@ -101,7 +101,7 @@ let questions = [
   },
   {
     numb: 10,
-    question: "O texto menciona que a proliferação de notícias falsas (fake news) encontra um ambiente perfeito nas redes sociais devido a:",
+    question: "A proliferação de notícias falsas (fake news) encontra um ambiente perfeito nas redes sociais devido a:",
     answer: "O excesso de informação e a dificuldade das pessoas em verificar a veracidade dos conteúdos antes de compartilhá-los.",
     options: [
       "A ampla aceitação de fontes tradicionais de mídia, como jornais e revistas.",
